@@ -10,7 +10,6 @@ Form with three entries
 With a submit button to generate image.
 
 Created images tiles below the form.
-
-Hopefully with a build in feature of click to copy to clipboard.
+Completed memes can be clicked on and deleted from the page.
 
 With sleek, minimalist, clean looking aesthetic.
