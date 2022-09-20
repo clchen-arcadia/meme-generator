@@ -8,26 +8,32 @@
     </head>
 
     <body>
+
       <h1>Create your own Meme!</h1>
-      <form action="/my-handling-form-page" method="post">
-        <ul>
+      <form id="meme-form">
+      <ul>
          <li>
-           <label for="link">Link to image:</label>
+           <label>Link to image:</label>
            <input type="url" id="link">
          </li>
          <li>
-           <label for="top-text">Top text:</label>
+           <label>Top text:</label>
            <input type="text" id="top-text">
          </li>
          <li>
-           <label for="bottom-text">Top text:</label>
+           <label>Bottom Text:</label>
            <input type="text" id="bottom-text">
         </li>
          <li>
-           <button type="submit">Submit</button>
+           <button id="submit-button">Submit</button>
          </li>
         </ul>
-       </form>
+      </form>
+
+      <script src="main.js">
+
+      </script>
+
     </body>
 
 </html>
